@@ -495,11 +495,25 @@
     height: 100%;
     width: 300%;
 }
+
+.img-box-art {
+height: 100%;
+}
+#gallery-art-curation-gall-temp {
+    grid-column: 3/6;
+    grid-row: 2/5;
+    overflow: hidden;
+    background-position: left;
+    background-size: cover;
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+}
 #gall-art-content {
     display: flex;
     overflow: hidden;
     height: 100%;
-    width: 300%;
+    width: 200%;
     margin-left: -100%;
 }
 #gall-art-content a {
@@ -528,6 +542,7 @@
     
     display: grid;
     grid-template-rows: 1fr auto;
+    
 }
 
 div#label-desc-art-cont {
@@ -570,4 +585,11 @@ div#label-desc-art-cont {
     padding: 5px 30px;
     cursor: pointer;
       
+}
+
+#d {
+    width: 50%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
 }
