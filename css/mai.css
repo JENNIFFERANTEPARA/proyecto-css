@@ -357,21 +357,112 @@
 
 
 
-    #e{
+    #imagencontenedor {
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;    
-        background-color: rgb(246, 246, 251);
-        position: center;
-        }
-.imagenesdecarricel3{
-            min-height: 100px;
-            min-width: 100px;
-            margin: 10px;
-            display:block;
-            align-items: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            justify-items: center;
-            margin-top: 15%;
-            }
+    }
+    .luxury-properties-label-home {
+        text-align: start;
+        margin-left: 5%;
+    }
+    .developments-label-home {
+        text-align: start;
+        margin-left: 5%;
+    }
+    #gallery-developments {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 5% 0 5%;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+    .label-nav-pag-butt {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 390;
+        font-size: 24px;
+        line-height: 45px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 100px;
+        padding: 5px 30px;
+        cursor: pointer;
+    }
+    #gallery-art-curation-log-temp {
+        grid-column: 6/9;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 8%;
+    }
+    #log-art-content {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        border-right: 1.5px solid #DF991B;
+        align-self: center;
+    }
+    #line-log-art {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        border-bottom: 1.5px solid #DF991B;
+    }
+    
+
+#gallery-art-curation-desc-nav-temp {
+    grid-column: 6/8;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+#nav-for-art2 {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+
+.prop-re-dev-name {
+    font-size: 0.9vw;
+    line-height: 1.6vw;
+}
+
+.letras {
+    display: grid;
+    background: white;
+    padding: 1vw 0 1vw 2vw;
+}
+
+
+.letra1 {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #464547;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.letra2 {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 30px;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
