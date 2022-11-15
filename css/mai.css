@@ -1,0 +1,377 @@
+#contenedor {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 3fr;
+    background-image: url('../img/logo.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0px
+    }
+
+    #encabezado {
+        display: grid;
+        grid-template-columns: 1fr auto auto auto;
+        padding: 1% 1% 1% 1%;
+        background-color: rgb(0 0 0 / 50%);
+        border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+    }
+    #log-uniq a {
+        height: fit-content;
+        width: fit-content;
+        margin-left: 5%;
+    }
+    #desk-log-head img {
+        height: 20px;
+       
+    }
+    #desk-mov-head img {
+        height: 20px;
+        text-decoration: underline;
+}
+       
+
+    
+
+    #login-part {
+        display: flex;
+        justify-content: center;
+        
+    }
+    #log-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: fit-content;
+        margin: 0 75px;
+    }
+    #log-container a:nth-child(1) {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 390;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding-right: 15px;
+        text-transform: uppercase;
+        text-decoration: none !important;
+    }
+    #log-container a:nth-child(2) {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 390;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding-left: 15px;
+        border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+        text-transform: uppercase;
+        text-decoration: none !important;
+    }
+
+#busqueda{
+    padding: 0 6%;
+    background-color: rgb(0 0 0 / 50%);
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    
+    }
+
+#search-column-re {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 2% 0 1% 0;
+}
+#search-real-estate {
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: none;
+    padding: 10px 0 10px 25px;
+    min-width: 20vw;
+    grid-column: 2/3;
+}
+#detallecabecera {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    align-items: flex-end;
+    margin-bottom: 6%;
+}
+#luxury-title-home {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+}
+#real-title-home {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 1.5%;
+}
+#view-title-home {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 25px;
+    line-height: 35px;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 12px 45px;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#social-media {
+    display: grid;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    left: 4vh;
+    top: 35%;
+    grid-template-columns: 1fr;
+    z-index: 999999;
+}
+#follow-span {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #7E7E7E;
+    transform: rotate(90deg) !important;
+    grid-row: 1/2;
+    margin: 0 0 75px -27px;
+}
+#line-follo {
+    width: 60px;
+    height: 0px;
+    border: 1px solid #7E7E7E;
+    transform: rotate(90deg) !important;
+    margin: 0 0 50px -23px;
+}
+
+#social-media a {
+    margin-bottom: 10px;
+}
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr;    
+    background-color: rgb(246, 246, 251);
+    }
+.imagenesdecarricel2{
+    min-height: 200px;
+    min-width: 200px;
+    margin: 10px;
+    display: grid;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    parte1textoimagen{
+        font-family: 'PF Regal Display Pro';
+        font-style: normal;
+        font-size: 30px;
+        line-height: 45px;
+        color: white;
+    
+        }
+        .parte2textoimagen{
+            font-family: 'PF Regal Display Pro';
+            font-style: normal;
+            font-size: 30px;
+            line-height: 45px;
+            Vertical-align: Center;
+            align-items: left ;
+            color: white;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            align-items: end;
+            }
+
+    #real-sale-desc-home, #real-rent-desc-home {
+        margin: 0 10%;
+    }
+    .worlwide-label {
+        font-family: 'PF Regal Display Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        color: #DF991B;
+        text-align: right;
+    }
+    .properties-type-label {
+        font-family: 'PF Regal Display Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        color: #000000;
+        margin-bottom: 5%;
+        text-align: right;
+    }
+    .desc-label-prop-type {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 330;
+        font-size: 23px;
+        line-height: 35px;
+        color: #000000;
+        margin-bottom: 20%;
+        text-align: right;
+    }
+    #nav-for-sale, #nav-for-rent, #nav-for-rent2, #nav-for-art {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    #perv-nav-pag2, #perv-nav-pag, #perv-nav-pag-rent, #perv-nav-pag-rent2, #perv-nav-pag-art, #perv-nav-pag-art2 {
+        display: flex;
+        align-items: center;
+    }
+    .label-nav-pag {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 390;
+        font-size: 18px;
+        color: #B4B7B7;
+    }
+    .label-nav-pag {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 390;
+        font-size: 18px;
+        color: #B4B7B7;
+    }
+    .label-nav-pag-butt {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 390;
+        font-size: 24px;
+        line-height: 45px;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 100px;
+        padding: 5px 30px;
+        cursor: pointer;}
+        .label-nav-pag {
+            font-family: brandon-grotesque;
+            font-style: normal;
+            font-weight: 390;
+            font-size: 18px;
+            color: #B4B7B7;
+        }
+
+        #terceraseccion {
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+        }
+        .worlwide-label1 {
+            font-family: 'PF Regal Display Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            color: #DF991B;
+            text-align: left;
+            align-items: center;
+        }
+        .properties-type-label1{
+            font-family: 'PF Regal Display Pro';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 45px;
+            color: #000000;
+            margin-bottom: 5%;
+        }
+        .desc-label-prop-type1 {
+            font-family: brandon-grotesque;
+            font-style: normal;
+            font-weight: 330;
+            font-size: 23px;
+            line-height: 35px;
+            color: #000000;
+            margin-bottom: 20%;
+            text-align: justify;
+        }
+
+
+      
+
+        #nav-for-rent2 {
+            display: none;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+        #developments-content-home {
+            display: grid;
+        }
+        #art-curation-content-home {
+            display: grid;
+            grid-template-columns: 5% 5% 35% 5% 5% 35% 5% 5%;
+            grid-template-rows: 10% 10% 60% 10% 10%;
+            margin-top: 5%;
+            height: 40vw;
+        }
+        
+#gallery-art-curation-balck-temp {
+    grid-row: 1/6;
+    grid-column: 2/4;
+    background-color: #26282B;
+
+}
+
+#gallery-art-curation-gall-temp {
+    grid-column: 3/6;
+    grid-row: 2/5;
+    overflow: hidden;
+}
+
+#galeria2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;    
+    background-color: rgb(246, 246, 251);
+    }
+
+
+
+    #e{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;    
+        background-color: rgb(246, 246, 251);
+        position: center;
+        }
+.imagenesdecarricel3{
+            min-height: 100px;
+            min-width: 100px;
+            margin: 10px;
+            display:block;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-items: center;
+            margin-top: 15%;
+            }
