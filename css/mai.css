@@ -357,17 +357,30 @@
 
 
 
-    #imagencontenedor {
+    #cuartaseccion {
         display: grid;
     }
-    .luxury-properties-label-home {
-        text-align: start;
+
+    div#palabra3, div#palabra4 {
+        text-align: center;
         margin-left: 5%;
     }
-    .developments-label-home {
-        text-align: start;
-        margin-left: 5%;
+    .worlwide-label {
+        font-family: 'PF Regal Display Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        color: #DF991B;
     }
+    .properties-type-label {
+        font-family: 'PF Regal Display Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        color: #000000;
+        margin-bottom: 5%;
+    }
+    
     #gallery-developments {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -465,4 +478,100 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+/*ultima parte*/
+#quintaseccion {
+    display: grid;
+    grid-template-columns: 5% 5% 35% 5% 5% 35% 5% 5%;
+    grid-template-rows: 10% 10% 60% 10% 10%;
+    margin-top: 5%;
+    height: 40vw;
+}
+#gallery-art-curation-balck-temp {
+    grid-row: 1/6;
+    grid-column: 2/4;
+    background-color: #26282B;
+}
+#gall-art-content {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 300%;
+    margin-left: -100%;
+}
+#gall-art-content a {
+    width: 100%;
+}
+#gallery-art-curation-log-temp {
+    grid-column: 6/9;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 8%;
+}#log-art-content {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border-right: 1.5px solid #DF991B;
+    align-self: center;
+}
+#line-log-art {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-bottom: 1.5px solid #DF991B;
+}
+#gallery-art-curation-desc-nav-temp {
+    grid-column: 6/8;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+div#label-desc-art-cont {
+    display: grid;
+    align-content: baseline;
+    margin-left: 10%;
+}
+#services-lab-art {
+    margin-top: 7%;
+    text-align: left;
+    }
+.properties-type-label {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.desc-label-prop-type {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 330;
+    font-size: 23px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 20%;
+    text-align: left;
+    
+}.label-nav-pag-butt {
+    font-family: brandon-grotesque;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 5px 30px;
+    cursor: pointer;
+      
 }
