@@ -185,7 +185,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
-    parte1textoimagen{
+    .letras:hover.letras{
+            display: inline;
+        }
+.letra1{
         font-family: 'PF Regal Display Pro';
         font-style: normal;
         font-size: 30px;
@@ -193,7 +196,7 @@
         color: white;
     
         }
-.parte2textoimagen{
+.letra2{
             font-family: 'PF Regal Display Pro';
             font-style: normal;
             font-size: 30px;
@@ -451,7 +454,7 @@ div#palabra3, div#palabra4 {
 }
 
 .letras {
-    display: grid;
+    display: non;
     background: white;
     padding: 1vw 0 1vw 2vw;
 }
@@ -594,7 +597,7 @@ div#label-desc-art-cont {
     height: 100px;
 }
 footer {
-    display: block;
+    display: grid;
 }
 #heder-real-estate {
     background-color: black;
@@ -606,11 +609,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     background-image: url(https://uniqluxury.com.mx/wp-content/uploads/2022/08/mikail-mcverry-GSL3IuuwJv8-unsplash-1.jpg);
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
+
     }
     /*
     #seccioncuerpo {
@@ -640,9 +639,10 @@ footer {
     }
           
     
-    span#join-footer-label {
+    #join-footer-label {
         font-size: 30px;
         line-height: 32px;
+        color: #DF991B;
     }
     
     #unlock-footer-label {
@@ -669,4 +669,23 @@ footer {
     
     #footer-real-estate-dwn {
         padding: 30% 0 0 0;
+        grid-template-columns: 1fr 1fr 1fr
     }
+    .int-nav-gall{
+        color:white
+    }
+    #view-title-home1 {
+        font-family: brandon-grotesque;
+        font-style: normal;
+        font-weight: 390;
+        font-size: 25px;
+        line-height: 35px;
+        color: #DF991B;
+        border: 1px solid #DF991B;
+        border-radius: 100px;
+        padding: 12px 30px;
+        height: fit-content;
+        width: fit-content;
+        text-decoration: none;
+    }
+    
